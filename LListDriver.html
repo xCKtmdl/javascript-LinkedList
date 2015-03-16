@@ -1,0 +1,33 @@
+<html>
+
+
+<head>
+<title>1234</title>
+
+<script src="LList.js"></script>
+
+
+</head>
+
+<body>
+
+ <script>
+
+function myfunc() {
+    var cities = new LList(); // cities list initialized with "head" value for head
+    cities.insert("Conway", "head"); // insert a Node with value "Conway" after "head"
+    cities.insert("Russellville", "Conway");
+    cities.insert("Alma", "Russellville");
+    cities.display();
+}
+
+
+</script> 
+
+
+<input type="button" value="click2" onclick="myfunc()" />
+
+
+</body>
+
+</html>
